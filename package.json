@@ -2,7 +2,6 @@
   "name": "movie_search_application",
   "version": "1.0.0",
   "description": "This is a movie search application",
-  "main": "App.js",
   "scripts": {
     "start": "npx parcel index.html",
     "build": "npx parcel build index.html",
