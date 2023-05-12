@@ -9,7 +9,7 @@ const MovieCard = (props) => {
             <img className="w-52 h-52 my-2 rounded-md" alt="movie-poster" src={Poster} />
             <div>
                 <h1 className="my-1"><span className="font-medium">Movie Name : </span>{Title.split(" ").length > 2 ? Title.split(" ").slice(0, 2).join(" ") + "..." : Title.split(" ").slice(0, 2).join(" ")}</h1>
-                <h2 className="my-1"><span className="font-medium">Relase Date : </span>{Year}</h2>
+                <h2 className="my-1"><span className="font-medium">Release Date : </span>{Year}</h2>
             </div>
         </div>
     )
