@@ -13,7 +13,7 @@ const AboutMovie = () => {
 
     return (Object.keys(movieData).length > 0) ? (
         <div className="flex justify-center items-center h-screen bg-gray-400">
-            <div className="border-2 border-black flex  bg-green-300 w-2/6 h-72 p-2 rounded-md gap-3">
+            <div className="border-2 border-black flex  bg-green-300 min-w-[250px] w-2/6 h-72 p-2 rounded-md gap-3">
                 <div className="w-64">
                 <img className="h-[100%] object-fill rounded-md" src={movieData.Poster}></img>
                 </div>  
